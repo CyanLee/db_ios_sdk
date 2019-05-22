@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  db_base_sdk
+//
+//  Created by 管家人 on 2019/5/16.
+//  Copyright © 2019 管家人. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+#import "NSDictionary+Extension.h"
+#import "SVProgressHUD.h"
+#import "Masonry.h"
+
+//#import "AppDelegate.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

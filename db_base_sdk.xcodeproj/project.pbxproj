@@ -18,6 +18,12 @@
 		87422E5A228D6D3600D93CCA /* DBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87422E54228D6D3600D93CCA /* DBBaseViewController.m */; };
 		87422E5B228D6D3600D93CCA /* DBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87422E55228D6D3600D93CCA /* DBTabBarController.m */; };
 		87422E5C228D6D3600D93CCA /* DBNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87422E56228D6D3600D93CCA /* DBNaviViewController.m */; };
+		87ADFAFA22B27A8C00985F79 /* JKTableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADFAF822B27A8B00985F79 /* JKTableViewHelper.m */; };
+		87ADFAFB22B27A8C00985F79 /* JKTableViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADFAF922B27A8C00985F79 /* JKTableViewHelper.h */; };
+		87ADFAFE22B27A9500985F79 /* UITableView+JKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADFAFC22B27A9500985F79 /* UITableView+JKAdd.h */; };
+		87ADFAFF22B27A9500985F79 /* UITableView+JKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADFAFD22B27A9500985F79 /* UITableView+JKAdd.m */; };
+		87ADFB0222B27AB300985F79 /* CNAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADFB0022B27AB300985F79 /* CNAuthorizationTools.m */; };
+		87ADFB0322B27AB300985F79 /* CNAuthorizationTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADFB0122B27AB300985F79 /* CNAuthorizationTools.h */; };
 		87BF09A5229531E200A35946 /* DBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BF09A3229531E100A35946 /* DBWebViewController.m */; };
 		87BF09A6229531E200A35946 /* DBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BF09A4229531E100A35946 /* DBWebViewController.h */; };
 /* End PBXBuildFile section */
@@ -38,6 +44,12 @@
 		87422E5D228D6D5C00D93CCA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		87AD5A43228AAC0000FD429E /* db_base_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = db_base_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AD5A47228AAC0000FD429E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87ADFAF822B27A8B00985F79 /* JKTableViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTableViewHelper.m; sourceTree = "<group>"; };
+		87ADFAF922B27A8C00985F79 /* JKTableViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTableViewHelper.h; sourceTree = "<group>"; };
+		87ADFAFC22B27A9500985F79 /* UITableView+JKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+JKAdd.h"; sourceTree = "<group>"; };
+		87ADFAFD22B27A9500985F79 /* UITableView+JKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JKAdd.m"; sourceTree = "<group>"; };
+		87ADFB0022B27AB300985F79 /* CNAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNAuthorizationTools.m; sourceTree = "<group>"; };
+		87ADFB0122B27AB300985F79 /* CNAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNAuthorizationTools.h; sourceTree = "<group>"; };
 		87BF09A3229531E100A35946 /* DBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWebViewController.m; sourceTree = "<group>"; };
 		87BF09A4229531E100A35946 /* DBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWebViewController.h; sourceTree = "<group>"; };
 		9AE21A751FAEC41EA7E7F2B4 /* libPods-db_base_sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-db_base_sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +86,11 @@
 		87422E4D228D6D3600D93CCA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				87ADFB0122B27AB300985F79 /* CNAuthorizationTools.h */,
+				87ADFB0022B27AB300985F79 /* CNAuthorizationTools.m */,
 				87422E5D228D6D5C00D93CCA /* PrefixHeader.pch */,
+				87ADFAF922B27A8C00985F79 /* JKTableViewHelper.h */,
+				87ADFAF822B27A8B00985F79 /* JKTableViewHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -89,6 +105,8 @@
 		87422E4F228D6D3600D93CCA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				87ADFAFC22B27A9500985F79 /* UITableView+JKAdd.h */,
+				87ADFAFD22B27A9500985F79 /* UITableView+JKAdd.m */,
 				872B123E2292389200E67EC8 /* NSDictionary+Extension.h */,
 				872B123F2292389200E67EC8 /* NSDictionary+Extension.m */,
 			);
@@ -169,9 +187,12 @@
 				87BF09A6229531E200A35946 /* DBWebViewController.h in Headers */,
 				87422E57228D6D3600D93CCA /* DBBaseViewController.h in Headers */,
 				872B12402292389200E67EC8 /* NSDictionary+Extension.h in Headers */,
+				87ADFAFE22B27A9500985F79 /* UITableView+JKAdd.h in Headers */,
 				872B123C229231D400E67EC8 /* DBSVProgressHUD.h in Headers */,
+				87ADFB0322B27AB300985F79 /* CNAuthorizationTools.h in Headers */,
 				87422E58228D6D3600D93CCA /* DBNaviViewController.h in Headers */,
 				87422E59228D6D3600D93CCA /* DBTabBarController.h in Headers */,
+				87ADFAFB22B27A8C00985F79 /* JKTableViewHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ADFB0222B27AB300985F79 /* CNAuthorizationTools.m in Sources */,
+				87ADFAFF22B27A9500985F79 /* UITableView+JKAdd.m in Sources */,
+				87ADFAFA22B27A8C00985F79 /* JKTableViewHelper.m in Sources */,
 				872B12412292389200E67EC8 /* NSDictionary+Extension.m in Sources */,
 				87422E5A228D6D3600D93CCA /* DBBaseViewController.m in Sources */,
 				872B123D229231D400E67EC8 /* DBSVProgressHUD.m in Sources */,
